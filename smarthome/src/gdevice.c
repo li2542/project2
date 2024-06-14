@@ -8,7 +8,7 @@ struct gdevice* add_device_to_gdevice_list(struct gdevice* phead,struct gdevice*
         phead = interface_control;
     }else{//不为空将当前节点指向链表头结点
         interface_control->next = phead;
-        phead  = interface_control;
+        phead = interface_control;
     }
     return phead;
 }
